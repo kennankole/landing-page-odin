@@ -43,3 +43,81 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
+
+/*
+####################################################
+#+++++++++++++++++++++MAIN SECTION+++++++++++++++++#
+####################################################
+*/
+
+.one {
+	background-color: #36454F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+	padding: 10%;
+}
+
+.main-page-right {
+	flex: 1;
+	height: 100%;
+}
+
+.main-page-right > h1 {
+	color: #fff;
+	font-size: 2.5rem;
+	line-height: 50px;
+}
+
+.main-page-right > p {
+	color: #fff;
+	font-size: 1.1rem;
+	margin-bottom: 5%;
+}
+.main-image {
+	flex: 1;
+}
+
+.main-btn {
+	background: #0070c1;
+	padding: 10px 35px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 700;
+}
+
+.main-img {
+	max-width: 100%;
+	max-height: 450px;
+}
+
+
+/*
+####################################################
+#++++++++++++++INFORMATION SECTION+++++++++++++++++#
+####################################################
+*/
+
+.two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.info-section {
+	flex: 1;
+}
+
+.img-containers {
+	display: flex;
+	padding: 10%;
+	gap: 4%;
+}
+
+.info-section > img {
+	height: 100%;
+	width: 100%;
+}
