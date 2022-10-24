@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*
+####################################################
+#+++++++++++++++++++++HEADER+++++++++++++++++++++++#
+####################################################
+*/
+
+header {
+	background-color: #1f2937;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	flex: 1;
+	padding: 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.nav-elem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 20px 40px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/*
+####################################################
+#+++++++++++++++++++++MAIN SECTION+++++++++++++++++#
+####################################################
+*/
+
+.one {
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5%;
+	padding: 10%;
+}
+
+.main-page-right {
+	flex: 1;
+	height: 100%;
+}
+
+.main-page-right > h1 {
+	color: #fff;
+	font-size: 2.5rem;
+	line-height: 50px;
+}
+
+.main-page-right > p {
+	color: #fff;
+	font-size: 1.1rem;
+	margin-bottom: 5%;
+}
+.main-image {
+	flex: 1;
+}
+
+.main-btn {
+	background: #0070c1;
+	padding: 10px 35px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 700;
+}
+
+.main-img {
+	max-width: 100%;
+	max-height: 450px;
+}
+
+
+/*
+####################################################
+#++++++++++++++INFORMATION SECTION+++++++++++++++++#
+####################################################
+*/
+
+.two {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.two-text {
+	align-items: center;
+	padding: 5%;
+	margin-bottom: -10%;
+}
+.info-section {
+	flex: 1;
+}
+
+.info-section > p {
+	text-align: center;
+}
+.img-containers {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10%;
+	gap: 4%;
+}
+
+.info-section > img {
+	height: 100%;
+	width: 100%;
+}
+
+
+/*
+####################################################
+#++++++++++++++QUOTE SECTION+++++++++++++++++++++++#
+####################################################
+*/
+
+.three {
+	background-color: #e5e7eb;
+	margin: 0 auto;
+	padding: 5%;
+	min-height: 500px;
+}
+
+.para-container {
+	width: 100%;
+	height: 100%;
+}
+
+.para-container > p {
+	font-size: 36px;
+	color: #1f2937;
+	padding: 0 10%;
+}
+
+.author {
+	text-align: end;
+	font-size: 2.3rem;
+	font-weight: 900;
+	padding: 5% 10%;
+}
+
+.four {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 300px;
+	width: 100%;
+}
+
+.section-four {
+	background-color: #3883f6;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 3%;
+	width: 80%;
+	gap: 5%;
+}
+
+.four-btn {
+	border: 1px solid #fff;
+	background-color: #3883f6;
+	padding: 8px 25px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 7px;
+}
+
+.four-txt, 
+.four-para {
+	color: #fff;
+	padding: 1%;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1f2937;
+	width: 100%;
+	min-height: 100px;
+	font-size: 20px;
+	color: #fff;
+}
